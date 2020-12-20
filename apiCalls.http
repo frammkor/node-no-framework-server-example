@@ -1,0 +1,18 @@
+###
+
+GET http://localhost:5000/api/products HTTP/1.1
+
+###
+
+GET http://localhost:5000/api/products/1 HTTP/1.1
+
+###
+
+POST http://localhost:5000/api/products HTTP/1.1
+content-type: application/json
+
+{
+    "title":"test title",
+    "description":"test dec",
+    "price": 0.001
+}
